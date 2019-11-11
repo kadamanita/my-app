@@ -7,10 +7,5 @@ pipeline {
                    sh 'sample.sh'
             }
         }
-        stage('Test') {
-            steps {
-                echo 'Testing..'
-            }
-        }
     }
 }
